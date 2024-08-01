@@ -20,3 +20,16 @@ filename = url.split("/")[-1]
 with open(filename, "wb") as f:
     r = requests.get(url)
     f.write(r.content)
+
+
+## References
+This repository builds upon significant academic research in the field of name-based gender classification:
+
+Rego, R. C., Silva, V. M. & Fernandes, V. M. (2021). Predicting Gender by First Name Using Character-level Machine Learning. arXiv preprint arXiv:2106.10156 v2.
+Rego, R. C., & Silva, V. M. (2021). Predicting gender of Brazilian names using deep learning. arXiv preprint arXiv:2106.10156 v1.
+
+R. C. B. Rego, G. d. S. Nascimento, D. E. d. L. Rodrigues, S. M. Nascimento, & V. M. L. Silva (2023). "Brazilian scientific productivity from a gender perspective during the Covid-19 pandemic: classification and analysis via machine learning," IEEE Latin America Transactions, vol. 21, no. 2, pp. 302-309, doi: 10.1109/TLA.2023.10015223.
+
+
+## Conclusion
+This repository offers a comprehensive toolkit for predicting gender based on first names using advanced machine learning techniques. Whether you are interested in exploring the intricacies of character-level models or need a robust solution for name-based gender prediction, this repository provides everything you need to get started.
